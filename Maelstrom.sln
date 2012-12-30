@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maelstrom.CharacterTracker.Web", "Maelstrom.CharacterTracker.Web\Maelstrom.CharacterTracker.Web.csproj", "{4EB5A262-B813-4C01-8D8F-631587F619BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maelstrom.CharacterTracker.Web.Tests", "Maelstrom.CharacterTracker.Web.Tests\Maelstrom.CharacterTracker.Web.Tests.csproj", "{34E43432-80EA-4F66-9100-826110DF5D40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EB5A262-B813-4C01-8D8F-631587F619BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB5A262-B813-4C01-8D8F-631587F619BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB5A262-B813-4C01-8D8F-631587F619BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB5A262-B813-4C01-8D8F-631587F619BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E43432-80EA-4F66-9100-826110DF5D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E43432-80EA-4F66-9100-826110DF5D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E43432-80EA-4F66-9100-826110DF5D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E43432-80EA-4F66-9100-826110DF5D40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
