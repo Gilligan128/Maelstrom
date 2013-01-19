@@ -21,7 +21,6 @@
            <td>@Html.ActionLink("Edit", "Edit", new { id = trait.Id })</td>
            <td>@using (Html.BeginForm("Delete", "Traits", new { id = trait.Id }))
                {
-                   @Html.HiddenFor(m => trait.Id)
              <input type="submit" Value="Delete" />
                }</td>
            </tr>
