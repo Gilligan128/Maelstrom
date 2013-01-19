@@ -1,0 +1,32 @@
+﻿@model Maelstrom.CharacterTracker.Web.Models.Trait[]
+@{
+    ViewBag.Title = "Index";
+}
+<h2>
+    Traits List</h2>
+<section class="create">
+        @Html.ActionLink("Add New", "Create")
+    </section>
+<section class="grid">
+@if (Model.Any())
+{
+    <table>
+        <tr>
+            <th>@Html.DisplayNameFor(m => m[0].Name)
+            </th>
+        </tr>
+        @foreach (var trait in Model)
+        {
+           <tr><td>@Html.DisplayFor(m => trait.Name)</td>
+           <td>@Html.ActionLink("Edit", "Edit", new { id = trait.Id })</td>
+           <td>@using (Html.BeginForm("Delete", "Traits", new { id = trait.Id }))
+               {
+                   @Html.HiddenFor(m => trait.Id)
+             <input type="submit" Value="Delete" />
+               }</td>
+           </tr>
+            
+        }
+    </table>
+}
+</section>
