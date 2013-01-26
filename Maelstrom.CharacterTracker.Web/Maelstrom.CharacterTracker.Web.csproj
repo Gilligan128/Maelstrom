@@ -182,6 +182,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\Crud\FromNHibernateModelBinder.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Entity.cs" />
     <Compile Include="Models\Origin.cs" />
@@ -310,7 +311,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Origins\Details.cshtml" />
-    <Content Include="Views\Traits\Create.cshtml" />
     <Content Include="Views\Traits\Edit.cshtml" />
     <Content Include="Views\Traits\Index.cshtml" />
   </ItemGroup>
@@ -319,6 +319,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Admin.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Traits\Create.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -336,7 +339,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53028</DevelopmentServerPort>
+          <DevelopmentServerPort>59815</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

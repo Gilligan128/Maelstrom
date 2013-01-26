@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace Maelstrom.CharacterTracker.Web.Models
 {
-    public class Entity
+    public abstract class Entity
     {
        [HiddenInput(DisplayValue= false)]
         public virtual int Id { get; protected set; }

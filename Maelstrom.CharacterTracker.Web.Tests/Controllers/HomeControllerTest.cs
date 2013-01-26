@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Maelstrom.CharacterTracker.Web;
 using Maelstrom.CharacterTracker.Web.Controllers;
+using Xunit;
 
 namespace Maelstrom.CharacterTracker.Web.Tests.Controllers
 {
-    [TestClass]
+    
     public class HomeControllerTest
     {
-        [TestMethod]
+        [Fact]
         public void Index()
         {
             // Arrange
@@ -22,10 +22,10 @@ namespace Maelstrom.CharacterTracker.Web.Tests.Controllers
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Modify this template to jump-start your ASP.NET MVC application.", result.ViewBag.Message);
+            Assert.Equal("Modify this template to jump-start your ASP.NET MVC application.", result.ViewBag.Message);
         }
 
-        [TestMethod]
+        [Fact]
         public void About()
         {
             // Arrange
@@ -35,10 +35,10 @@ namespace Maelstrom.CharacterTracker.Web.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.IsNotNull(result);
+            Assert.NotNull(result);
         }
 
-        [TestMethod]
+        [Fact]
         public void Contact()
         {
             // Arrange
@@ -48,7 +48,7 @@ namespace Maelstrom.CharacterTracker.Web.Tests.Controllers
             ViewResult result = controller.Contact() as ViewResult;
 
             // Assert
-            Assert.IsNotNull(result);
+            Assert.NotNull(result);
         }
     }
 }
