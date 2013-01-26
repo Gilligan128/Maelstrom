@@ -6,13 +6,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Maelstrom.CharacterTracker.Web.Models
 {
-    public class Origin
+    public class Origin : Entity
     {
         [Required]
-        public int Id { get; set; }
-
-        [Required]
         public string Name { get; set; }
+        public virtual string Description { get; set; }
         [Range(0,100)]
         public int BonusHP { get; set; }
         [Range(0,100)]
