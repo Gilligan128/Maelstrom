@@ -173,6 +173,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CharactersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LookupController.cs" />
     <Compile Include="Controllers\MaelstromController.cs" />
@@ -184,6 +185,7 @@
     </Compile>
     <Compile Include="Infrastructure\Crud\FromNHibernateModelBinder.cs" />
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Character.cs" />
     <Compile Include="Models\Entity.cs" />
     <Compile Include="Models\Origin.cs" />
     <Compile Include="Models\Trait.cs" />
@@ -246,6 +248,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Questions.txt" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />

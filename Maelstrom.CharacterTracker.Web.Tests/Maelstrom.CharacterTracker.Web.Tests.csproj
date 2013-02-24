@@ -84,6 +84,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\Characters_Controlers_Tests.cs" />
+    <Compile Include="ControllerTests.cs" />
+    <Compile Include="HPCalculatorTests.cs" />
     <Compile Include="Infrastructure\Crud\EntityModelbinderTests.cs" />
     <Compile Include="Infrastructure\Crud\LookupControllerTests.cs" />
     <Compile Include="NHibernateTests.cs" />
