@@ -1,0 +1,2 @@
+﻿-- Is there any place origns can be edited after they are created
+	-- If origins is locked in place can it be over ridden by an Admin
